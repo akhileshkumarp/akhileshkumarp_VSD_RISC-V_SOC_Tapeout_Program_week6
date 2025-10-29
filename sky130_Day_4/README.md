@@ -1,30 +1,30 @@
-# Sky130 Day 4 - Pre-layout timing analysis and importance of good clock tree
+# Sky130 Day 4 - Pre-layout timing analysis and importance of good clock tree  
 
-#Timing modelling using delay tables
-> Lab steps to convert grid info to track info
-> Lab steps to convert magic layout to std cell LEF
-> Introduction to timing libs and steps to include new cell in synthesis
-> Introduction to delay tables
-> Delay table usage Part 1
-> Delay table usage Part 2
-> Lab steps to configure synthesis settings to fix slack and include vsdinv
+#Timing modelling using delay tables  
+> Lab steps to convert grid info to track info  
+> Lab steps to convert magic layout to std cell LEF  
+> Introduction to timing libs and steps to include new cell in synthesis  
+> Introduction to delay tables  
+> Delay table usage Part 1  
+> Delay table usage Part 2  
+> Lab steps to configure synthesis settings to fix slack and include vsdinv  
 
-#Timing analysis with ideal clocks using openSTA
-> Setup timing analysis and introduction to flip-flop setup time
-> Introduction to clock jitter and uncertainty
-> Lab steps to configure OpenSTA for post-synth timing analysis
-> Lab steps to optimize synthesis to reduce setup violations
-> Lab steps to do basic timing ECO
+#Timing analysis with ideal clocks using openSTA  
+> Setup timing analysis and introduction to flip-flop setup time  
+> Introduction to clock jitter and uncertainty  
+> Lab steps to configure OpenSTA for post-synth timing analysis  
+> Lab steps to optimize synthesis to reduce setup violations  
+> Lab steps to do basic timing ECO  
 
-#Clock tree synthesis TritonCTS and signal integrity
-> Clock tree routing and buffering using H-Tree algorithm
-> Crosstalk and clock net shielding
-> Lab steps to run CTS using TritonCTS
-> Lab steps to verify CTS runs
+#Clock tree synthesis TritonCTS and signal integrity  
+> Clock tree routing and buffering using H-Tree algorithm  
+> Crosstalk and clock net shielding  
+> Lab steps to run CTS using TritonCTS  
+> Lab steps to verify CTS runs  
 
-#Timing analysis with real clocks using openSTA
-> Setup timing analysis using real clocks
-> Hold timing analysis using real clocks
-> Lab steps to analyze timing with real clocks using OpenSTA
-> Lab steps to execute OpenSTA with right timing libraries and CTS assignment
-> Lab steps to observe impact of bigger CTS buffers on setup and hold timing
+#Timing analysis with real clocks using openSTA  
+> Setup timing analysis using real clocks  
+> Hold timing analysis using real clocks  
+> Lab steps to analyze timing with real clocks using OpenSTA  
+> Lab steps to execute OpenSTA with right timing libraries and CTS assignment  
+> Lab steps to observe impact of bigger CTS buffers on setup and hold timing  
