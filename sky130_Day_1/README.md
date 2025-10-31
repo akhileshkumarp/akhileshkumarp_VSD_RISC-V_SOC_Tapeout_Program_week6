@@ -29,6 +29,81 @@ Below image describes the system view of the Arduino board.
 ![Chip Flow Low Level](./assets/chip_flow_low_level.png)  
 
 
+
+#####################
+#change the main directory
+cd Desktop
+
+#change the directory
+cd work/tools/
+
+#open the directory
+ls -ltr
+
+#change the directory
+cd openlane_working_dir
+
+#open the directory
+ls -lrt
+
+#change the directory
+cd pdks
+
+
+work_dir_view.png
+
+
+
+libs_ref_tech.png
+
+
+#Change directory to openlane flow directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+#alias docker='docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/openlane:v0.21'
+#Since we have aliased the long command to 'docker' we can invoke the OpenLANE flow docker sub-system by just running this command
+docker
+
+## Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+
+#activates OpenLane’s Tcl package (version 0.9)
+package require openlane 0.9 (in the OpenLANE environment)
+
+#initial setup stage of the OpenLane physical design flow
+prep -design picorv32a
+
+docker_Run_openlane.png
+
+
+prep_design.png
+
+view_after_prep.png
+
+merged_lef1.png
+
+merged_lef2.png
+
+
+
+
+run_synthesis.png
+
+printing_synth_stats.png
+
+printing_synth_stats2.png
+
+printing_synth_stats3.png
+
+synth_done.png
+
+synth_file_ls.png
+
+report_view.png
+###########################
+
+
+
 #Soc Design and OpenLANE  
 > Introduction to all components of open-source digital asic design  
 > Simplified RTL2GDS flow  
